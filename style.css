@@ -1,0 +1,398 @@
+@import'https://fonts.googleapis.com/css?family=Alumni Sans Inline One';
+
+*{
+    background:black;
+    margin:0px 0px;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    height: 17%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    
+}
+nav.scrolled {
+    background-color: black;
+}
+
+ /* .logo img{
+    width: 70px;
+    height: 60px;
+    margin-top: 40px;
+   
+}  */
+
+nav  ul{
+    color:#A5A5A5;
+    list-style: none;
+    display:flex;
+    padding-left: 1px;
+    padding-top: 70px;
+    z-index: 2000;
+}
+
+nav ul li{
+    margin-left: 40px;
+    font-family: Alumni Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav li a{
+    color:#A5A5A5;
+    text-decoration:none;
+}
+
+nav li a:hover{
+    color:white;
+}
+
+h1{
+    padding-top: 70px;
+    margin-left: 930px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 2px;
+    color: #E0DC89;
+    background-color: transparent;
+}
+
+.firstpage {
+    margin-top: -50px;
+    display: flex;
+}
+
+.text{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.l{
+    padding-top: 300px;
+    padding-left: 40px;
+    
+}
+
+a.one{
+    color: #E8E8E8;
+    font-family: Esteban;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;  
+}
+
+a.two{
+    color: #E0DC89;
+    font-family: Esteban;
+    font-size: 70px;
+    font-weight: 400;
+    line-height:80px;
+}
+
+a.three{
+    color: #C1C1C1;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.r img{
+    width: 790px;
+    height: 800px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+  }
+
+.clicks{
+    z-index: 2;
+    margin-top:15px;
+}
+
+button{
+    color:rgb(255, 255, 255);
+    border-radius: 11px;
+    border: 1px solid #DDD75A;
+    background: #272727;
+    margin-right: 10px;
+    width: 157px;
+    height: 61px;
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #E0DC89;
+    color:black;
+    font-weight: 500;
+}
+
+hr{
+    height:10px;
+    background: grey;
+    border-style: none;
+    margin-top: 0px;
+    justify-content: center;
+  }
+
+.secondpage , .thirdpage, .fourthpage{
+    padding-top: 100px;
+    align-items: center;
+}
+
+
+.text2{
+    text-align: center;
+}
+.text2 a {
+    color: #E0DC89;
+    font-family: Esteban;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.box1 {
+    width: 352px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 5px solid rgb(224, 220, 137);
+    background: rgba(255, 255, 255, 0.00);
+    color: #C1C1C1;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.box1:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgb(224, 220, 137);
+}
+
+.box ul{
+    display: flex;
+    list-style: none;
+}
+
+.box ul li{
+    margin-right: 40px;
+}
+
+.i,.k{
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.j{
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.padding{
+    margin-top: 100px;
+}
+
+
+.box2 {
+    width: 334px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #FFFEFE;
+    background: rgba(217, 217, 217, 0.16);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.projects ul{
+    display: flex;
+    list-style: none;
+}
+
+.projects ul li{
+    margin-right: 40px;
+}
+
+.line-1{
+    width: 334px;
+    height: 1px;
+    background: #FFF;
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+
+.part2{
+    background-color: transparent;
+    color: white;
+    margin: 2px 20px;   
+}
+
+.txt1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: transparent;
+    
+}
+
+.txt2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    width: 307px;
+    background: transparent;
+
+}
+
+.part1{
+    background-color: transparent;
+}
+
+.break{
+    width: 334px;
+    height:5px;
+    background-color: transparent;
+}
+
+.part3{
+    background: rgba(217, 217, 217, 0);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.git{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: transparent;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.git:hover{
+    text-decoration: underline;
+}
+
+.box2:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgb(224, 220, 137);
+}
+
+.mainpart{
+    display: flex;
+    margin-top: 70px;
+}
+
+.text3{
+    color:#E0DC89;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 5%;
+    padding-left: 40px;
+    margin-right:-50px;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color:white;
+  }
+
+  input[type=email]{
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    color:white;
+  }
+  
+ 
+  input[type=submit] {
+    background: #E0DC89;
+    color: rgb(0, 0, 0);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 450px;
+    padding-right: 450px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+
+  }
+  input[type=submit]:hover {
+    background-color:#272727;
+    color: white;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding-right: 40px; 
+    padding-left: 100px;
+    color: white;
+  }
+
+  
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3e3e3e;
+}
+
+::-webkit-scrollbar-thumb {
+    background:  black;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #E0DC89;
+}
+
+
+
+
+  
+
